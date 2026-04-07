@@ -1,9 +1,0 @@
-# VoiLeipä
-## a)
-  sudo adduser bossi
-  sudo groupadd sudoless
-  sudo adduser bossi sudoless
-
-  sudo visudo /etc/sudoers.d/sudoless
-  sisään teksti: %sudoless ALL = (ALL) NOPASSWD: ALL
-  
