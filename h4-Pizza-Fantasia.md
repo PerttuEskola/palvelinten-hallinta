@@ -98,3 +98,4 @@ sudo apt purge --auto-remove redis-server
 - Redis.io: https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/
 - Karvinen 2023: https://westminsterresearch.westminster.ac.uk/item/w7vvz/configuration-management-of-distributed-systems-over-unreliable-and-hostile-networks
 - Gemini: https://gemini.google.com/
+- ChatGPT: https://chatgpt.com/
