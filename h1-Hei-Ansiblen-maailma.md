@@ -12,24 +12,24 @@ x)
 
 
 a)
-  sudo apt-get update
-  sudo apt-get -y install ssh
-  sudo systemctl enable --now ssh
-  ssh perttu@localhost
+  - sudo apt-get update
+  - sudo apt-get -y install ssh
+  - sudo systemctl enable --now ssh
+  - ssh perttu@localhost
 
 b)
-  ssh-keygen
-  ssh-copy-id perttu@localhost
+  - ssh-keygen
+  - ssh-copy-id perttu@localhost
 
 c)
-  sudo apt-get update
-  sudo apt-get install ansible micro bash-completion tree
-  mkdir ansible/
-  cd ansible/
-  micro hosts.ini --- sisään perttu@localhost
-  ansible all -a 'uptime' -i hosts.ini
-  mkdir -p roles/hello/tasks
-  micro roles/hello/tasks/main.yml
+  - sudo apt-get update
+  - sudo apt-get install ansible micro bash-completion tree
+  - mkdir ansible/
+  - cd ansible/
+  - micro hosts.ini --- sisään perttu@localhost
+  - ansible all -a 'uptime' -i hosts.ini
+  - mkdir -p roles/hello/tasks
+  - micro roles/hello/tasks/main.yml
   
   - copy:
     dest: /tmp/hello-ansible
@@ -41,10 +41,10 @@ c)
       roles:
         - hello
           
-  ansible-playbook -i hosts.ini site.yml
+  - ansible-playbook -i hosts.ini site.yml
   
-  ssh localhost 'cat /tmp/hei-ansible'
+  - ssh localhost 'cat /tmp/hei-ansible'
 
-  tulostus: Hei maailma
+  - tulostus: Hei maailma
   
   
