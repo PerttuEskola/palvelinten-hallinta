@@ -31,6 +31,9 @@ GIT: https://git-scm.com/docs ja https://git-scm.com/book/en/v2/Getting-Started-
 ### Lisätään uusi tyhjä tiedosto, jotta näemme, että varasto toimii.
 <img width="1586" height="584" alt="image" src="https://github.com/user-attachments/assets/c14015c9-649d-458e-b836-a6b238b01a22" />
 
+### Tiedosto ilmestyy selain näkymään
+<img width="727" height="177" alt="image" src="https://github.com/user-attachments/assets/1b0a02a5-490e-4732-9cba-433aa14e9791" />
+
 ## c) Doh 
 ### Tedään tyhmä muutos ja poistetan se.
 <img width="1607" height="745" alt="image" src="https://github.com/user-attachments/assets/19b22f8e-4b0b-445d-8bd4-9b90bff01e9d" />
